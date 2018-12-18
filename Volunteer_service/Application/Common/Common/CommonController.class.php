@@ -70,8 +70,6 @@ class CommonController extends Controller
      */
     protected function user($key = '*', $login = true)
     {
-        //session("user" , array("openid" => "og13YvgpTnp82zYmM-5DbWsession("user" , array("openid" => "og13Yvg-fVD7WSP5sjMwD6we0eLY",'nickname'=>'心若止水','id'=>"1025719"));gcf9Wk",'nickname'=>'✎﹏ℳ๓₯㎕','id'=>"1022541"));
-        // session("user" , array("openid" => "o9L9G0-pyuZXAdSlh11LPUcvC5H8",'nickname'=>'嘿嘿','id'=>"1025721"));
 
         $user = session('user');
         if (is_null($user)) {
