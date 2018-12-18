@@ -1,16 +1,16 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : localhost
-Source Server Version : 50540
-Source Host           : localhost:30000
-Source Database       : volunteer_service
+Source Server         : code1
+Source Server Version : 100124
+Source Host           : localhost:3306
+Source Database       : volunteer_service-20180921
 
 Target Server Type    : MYSQL
-Target Server Version : 50540
+Target Server Version : 100124
 File Encoding         : 65001
 
-Date: 2018-09-21 09:17:58
+Date: 2018-12-18 20:23:34
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -24,7 +24,7 @@ CREATE TABLE `academic` (
   `name` varchar(255) DEFAULT NULL COMMENT '学院名称',
   `created` datetime DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COMMENT='学院表';
+) ENGINE=InnoDB AUTO_INCREMENT=102 DEFAULT CHARSET=utf8 COMMENT='学院表';
 
 -- ----------------------------
 -- Records of academic
@@ -33,6 +33,103 @@ INSERT INTO `academic` VALUES ('1', '建筑工程学院', '2018-09-11 13:28:10')
 INSERT INTO `academic` VALUES ('2', '体育学院', '2018-09-11 13:28:10');
 INSERT INTO `academic` VALUES ('3', '软件工程学院', '2018-09-13 17:23:29');
 INSERT INTO `academic` VALUES ('4', '音乐学院', '2018-09-13 17:37:02');
+INSERT INTO `academic` VALUES ('5', '科研院', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('6', '林学院', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('7', '森林植物生态学教育部重点实验室', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('8', '经济管理学院', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('9', '管院', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('10', '组织部', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('11', '经管学院', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('12', '动物学院', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('13', '机电学院', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('14', '土木工程学院', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('15', '文法学院', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('16', '理学院', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('17', '外国语学院', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('18', '体育部', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('19', '信息学院', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('20', '木机检测中心', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('21', '生命科学学院', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('22', '动资学院', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('23', '野生动物资源学院', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('24', '材料学院', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('25', '外语学院', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('26', '后总', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('27', '党委组织部', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('28', '机关', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('29', '交通学院', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('30', '机电工程学院', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('31', '资产与后勤管理处', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('32', '材料科学与工程学院', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('33', '帽儿山教学区', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('34', '开放室', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('35', '工程学院', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('36', '资产管理处', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('37', '园林学院', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('38', '档案馆', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('39', '保卫处', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('40', '科技园管理处', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('41', '设计院', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('42', '重点实验室', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('43', '停薪留职', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('44', '图书馆', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('45', '后勤资产处', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('46', '国际学院', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('47', '计划财务处', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('48', '出版社', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('49', '材料与科学学院', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('50', '生命学院', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('51', '林大医院', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('52', '校医院', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('53', '资产处', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('54', '编辑部', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('55', '工会', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('56', '离退处', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('57', '学生处', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('58', '医院', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('59', '土木学院', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('60', '财务处', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('61', '植物生态开放实验室', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('62', '基建处', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('63', '马列学院', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('64', '工程技术学院', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('65', '理学院化学化工系', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('66', '校保卫处', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('67', '马院', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('68', '盐碱地研究中心', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('69', '理学院数学系', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('70', '人交中心', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('71', '后勤', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('72', '后勤服务总公司', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('73', '林大资产处能源管理科', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('74', '木机中心', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('75', '林大开放实验室', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('76', '后总车队', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('77', '后勤车队', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('78', '林大离退休工作处', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('79', '工科实习中心', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('80', '机械厂', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('81', '工科实习教学中心', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('82', '林大资产处', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('83', '后勤能源管理科', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('84', '林大后总', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('85', '林大后勤', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('86', '林大后勤消防设施管理中心', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('87', '后勤专家公寓', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('88', '数建办', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('89', '校办', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('90', '工程公司', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('91', '林大工程公司', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('92', '林大保卫处', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('93', '科学技术研究院', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('94', '人才交流中心', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('95', '产业集团', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('96', '师范学院', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('97', '材料科学学院', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('98', '开放室重点实验室', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('99', '党委宣传部', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('100', '马克思主义教学研究部', '2018-10-05 20:54:30');
+INSERT INTO `academic` VALUES ('101', '信息与计算机工程学院', '2018-10-05 20:54:30');
 
 -- ----------------------------
 -- Table structure for bs_menu
@@ -51,7 +148,7 @@ CREATE TABLE `bs_menu` (
   `sort` smallint(6) DEFAULT '0' COMMENT '排序（倒序）',
   `icon` varchar(25) DEFAULT NULL COMMENT '菜单样式',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=41 DEFAULT CHARSET=utf8 COMMENT='菜单表';
+) ENGINE=InnoDB AUTO_INCREMENT=47 DEFAULT CHARSET=utf8 COMMENT='菜单表';
 
 -- ----------------------------
 -- Records of bs_menu
@@ -72,6 +169,9 @@ INSERT INTO `bs_menu` VALUES ('37', '老干部信息', '1', 'admin', 'teacheruse
 INSERT INTO `bs_menu` VALUES ('38', '学生信息', '1', 'admin', 'studentuser', 'index', '', '36', '1', '99', '');
 INSERT INTO `bs_menu` VALUES ('39', '紧急心愿', '1', null, null, null, '', '0', '1', '99', '');
 INSERT INTO `bs_menu` VALUES ('40', '紧急心愿', '1', 'admin', 'wish', 'index', '', '39', '1', '99', '');
+INSERT INTO `bs_menu` VALUES ('44', '审核', '1', '', '', '', '', '0', '1', '99', '');
+INSERT INTO `bs_menu` VALUES ('45', '审核教师心愿', '1', 'admin', 'shenheteacher', 'index', '', '44', '1', '99', '');
+INSERT INTO `bs_menu` VALUES ('46', '审核学生心愿', '1', 'admin', 'shenhestudent', 'index', '', '44', '1', '99', '');
 
 -- ----------------------------
 -- Table structure for bs_node
@@ -93,7 +193,7 @@ CREATE TABLE `bs_node` (
   `access` int(1) DEFAULT '0' COMMENT '-1禁止访问，0默认，1公共（无权限控制）',
   PRIMARY KEY (`id`),
   KEY `pid` (`pid`,`name`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=280 DEFAULT CHARSET=utf8 COMMENT='菜单权限节点表';
+) ENGINE=InnoDB AUTO_INCREMENT=290 DEFAULT CHARSET=utf8 COMMENT='菜单权限节点表';
 
 -- ----------------------------
 -- Records of bs_node
@@ -167,6 +267,16 @@ INSERT INTO `bs_node` VALUES ('276', '40', '编辑', 'edit', 'icon-edit', '1', '
 INSERT INTO `bs_node` VALUES ('277', '40', '删除', 'delete', 'icon-trash', '1', '0', '', '99', 'default', '', '', '0');
 INSERT INTO `bs_node` VALUES ('278', '40', '搜索', 'search', 'icon-search', '2', '0', '', '99', 'default', '', '', '0');
 INSERT INTO `bs_node` VALUES ('279', '40', '导出心愿', 'export', '', '1', '1', '', '0', 'view', '', 'self', '0');
+INSERT INTO `bs_node` VALUES ('280', '46', '查看', 'index', '', '1', '0', null, '100', 'view', null, 'self', '0');
+INSERT INTO `bs_node` VALUES ('281', '46', '添加', 'add', 'icon-plus', '1', '0', '', '99', 'view', '', 'modal', '0');
+INSERT INTO `bs_node` VALUES ('282', '46', '编辑', 'edit', 'icon-edit', '1', '0', '', '99', 'view', '', 'modal', '0');
+INSERT INTO `bs_node` VALUES ('283', '46', '删除', 'delete', 'icon-trash', '1', '0', '', '99', 'default', '', '', '0');
+INSERT INTO `bs_node` VALUES ('284', '46', '搜索', 'search', 'icon-search', '2', '0', '', '99', 'default', '', '', '0');
+INSERT INTO `bs_node` VALUES ('285', '45', '查看', 'index', '', '1', '0', null, '100', 'view', null, 'self', '0');
+INSERT INTO `bs_node` VALUES ('286', '45', '添加', 'add', 'icon-plus', '1', '0', '', '99', 'view', '', 'modal', '0');
+INSERT INTO `bs_node` VALUES ('287', '45', '编辑', 'edit', 'icon-edit', '1', '0', '', '99', 'view', '', 'modal', '0');
+INSERT INTO `bs_node` VALUES ('288', '45', '删除', 'delete', 'icon-trash', '1', '0', '', '99', 'default', '', '', '0');
+INSERT INTO `bs_node` VALUES ('289', '45', '搜索', 'search', 'icon-search', '2', '0', '', '99', 'default', '', '', '0');
 
 -- ----------------------------
 -- Table structure for bs_resource
@@ -185,7 +295,7 @@ CREATE TABLE `bs_resource` (
   `height` int(10) unsigned DEFAULT NULL COMMENT '图片高度',
   PRIMARY KEY (`id`),
   KEY `type` (`type`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=391 DEFAULT CHARSET=utf8mb4 COMMENT='文件上传记录';
+) ENGINE=InnoDB AUTO_INCREMENT=392 DEFAULT CHARSET=utf8mb4 COMMENT='文件上传记录';
 
 -- ----------------------------
 -- Records of bs_resource
@@ -233,6 +343,7 @@ INSERT INTO `bs_resource` VALUES ('387', 'http://volunteer.xingyebao.com/upload/
 INSERT INTO `bs_resource` VALUES ('388', 'http://volunteer.xingyebao.com/upload/file/20180914/1536915614124374.xls', 'file', '导入学生信息表 .xls', '18944', '.xls', '导入学生信息表 ', null, null, null);
 INSERT INTO `bs_resource` VALUES ('389', 'http://volunteer.xingyebao.com/upload/file/20180915/1536997269368438.xls', 'file', '导入学生信息表 .xls', '20480', '.xls', '导入学生信息表 ', null, null, null);
 INSERT INTO `bs_resource` VALUES ('390', 'http://volunteer.xingyebao.com/upload/file/20180915/1536997533113926.xls', 'file', '导入老干部信息表.xls', '20480', '.xls', '导入老干部信息表', null, null, null);
+INSERT INTO `bs_resource` VALUES ('391', 'http://www.volunteer.com/upload/file/20181005/1538744063.xls', 'file', '导入老干部信息表.xls', '57344', '.xls', '导入老干部信息表', null, null, null);
 
 -- ----------------------------
 -- Table structure for bs_role
@@ -306,7 +417,7 @@ CREATE TABLE `department` (
   `remark` varchar(100) DEFAULT NULL COMMENT '备注',
   `created` datetime DEFAULT NULL COMMENT '创建时间',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=38 DEFAULT CHARSET=utf8mb4 COMMENT='部门表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='部门表';
 
 -- ----------------------------
 -- Records of department
@@ -420,22 +531,23 @@ CREATE TABLE `student` (
   `val` int(11) DEFAULT NULL COMMENT '接取任务个数',
   `add_time` datetime DEFAULT NULL COMMENT '添加时间',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=24 DEFAULT CHARSET=utf8 COMMENT='学生信息表';
+) ENGINE=InnoDB AUTO_INCREMENT=25 DEFAULT CHARSET=utf8 COMMENT='学生信息表';
 
 -- ----------------------------
 -- Records of student
 -- ----------------------------
-INSERT INTO `student` VALUES ('5', '1025727', '小明', '10001', '1', '13312345678', '1', '570', null, '2018-09-11 14:22:15');
-INSERT INTO `student` VALUES ('6', null, '小陈', '10002', '1', '13312345671', '1', '0', null, '2018-09-11 14:22:15');
-INSERT INTO `student` VALUES ('7', null, '小赵', '10003', '1', '13312345672', '1', '0', null, '2018-09-11 14:22:15');
-INSERT INTO `student` VALUES ('8', null, '小付', '10004', '1', '13312345673', '2', '0', null, '2018-09-11 14:22:15');
+INSERT INTO `student` VALUES ('5', '1025721', '小明', '10001', '1', '18812345678', '1', '957', null, '2018-09-11 14:22:15');
+INSERT INTO `student` VALUES ('6', null, '小陈', '10002', '1', '18812345671', '1', '0', null, '2018-09-11 14:22:15');
+INSERT INTO `student` VALUES ('7', null, '小赵', '10003', '1', '18812345672', '1', '0', null, '2018-09-11 14:22:15');
+INSERT INTO `student` VALUES ('8', null, '小付', '10004', '1', '18812345673', '2', '0', null, '2018-09-11 14:22:15');
 INSERT INTO `student` VALUES ('17', null, '小明', '20090101', '1', '18312345678', '1', '0', null, '2018-09-13 17:37:02');
 INSERT INTO `student` VALUES ('18', null, '小李', '20090102', '2', '18245666666', '4', '0', null, '2018-09-13 17:37:03');
-INSERT INTO `student` VALUES ('19', '1025722', '小马', '20090103', '2', '18133434554', '2', '0', null, '2018-09-13 17:37:03');
-INSERT INTO `student` VALUES ('20', '1025720', '小美', '20090104', '2', '15124686096', '3', '4106', null, '2018-09-13 20:13:15');
-INSERT INTO `student` VALUES ('21', '1025723', '小苍一号', '1006', '1', '18245022144', '2', '-6.5555855555939E+14', null, '2018-09-14 09:12:11');
-INSERT INTO `student` VALUES ('22', null, '小丑一号', '2048', '1', '182450221444', '3', '0', null, '2018-09-14 17:00:15');
-INSERT INTO `student` VALUES ('23', '1025726', '小楠', '20090105', '2', '18714613621', '1', '70', null, '2018-09-15 15:41:13');
+INSERT INTO `student` VALUES ('19', null, '小马', '20090103', '2', '18133434554', '2', '0', null, '2018-09-13 17:37:03');
+INSERT INTO `student` VALUES ('20', null, '小美', '20090104', '2', '15124686096', '3', '4106', null, '2018-09-13 20:13:15');
+INSERT INTO `student` VALUES ('21', null, '小苍一号', '1006', '1', '18245022144', '2', '-6.5555855555939E+14', null, '2018-09-14 09:12:11');
+INSERT INTO `student` VALUES ('22', null, '小丑一号', '2048', '1', '18245022145', '3', '0', null, '2018-09-14 17:00:15');
+INSERT INTO `student` VALUES ('23', null, '小楠', '20090105', '2', '18714613621', '1', '70', null, '2018-09-15 15:41:13');
+INSERT INTO `student` VALUES ('24', null, 'fdjog', '20060101', '2', '18712345678', '1', '120', null, '2018-09-15 15:41:13');
 
 -- ----------------------------
 -- Table structure for teacher
@@ -453,21 +565,18 @@ CREATE TABLE `teacher` (
   `val` int(11) DEFAULT NULL COMMENT '发布任务个数',
   `add_time` datetime DEFAULT NULL COMMENT '添加时间',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8 COMMENT='老干部信息表';
+) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8 COMMENT='老干部信息表';
 
 -- ----------------------------
 -- Records of teacher
 -- ----------------------------
-INSERT INTO `teacher` VALUES ('9', null, '小明', '1', '1', '13312345678', '1', '3000', '0', '2018-09-11 13:57:24');
-INSERT INTO `teacher` VALUES ('10', '1025727', '小李', '2', '1', '13312345678', '1', '2550', null, '2018-09-11 13:57:24');
-INSERT INTO `teacher` VALUES ('11', '1025728', '小王', '3', '1', '13312345678', '1', '3000', null, '2018-09-11 13:57:24');
-INSERT INTO `teacher` VALUES ('12', '1025729', '小张', '4', '1', '13312345678', '2', '3000', null, '2018-09-11 13:57:24');
-INSERT INTO `teacher` VALUES ('13', null, '赵鹏', '1001', '1', '14565467756', '1', '3000', null, '2018-09-13 17:23:29');
-INSERT INTO `teacher` VALUES ('14', '1025721', '玛丽', '1002', '2', '18246556255', '3', '3118', null, '2018-09-13 17:23:29');
+INSERT INTO `teacher` VALUES ('13', '1025721', '赵鹏', '1001', '1', '14565467756', '1', '3000', null, '2018-09-13 17:23:29');
+INSERT INTO `teacher` VALUES ('14', null, '玛丽', '1002', '2', '18246556255', '3', '3118', null, '2018-09-13 17:23:29');
 INSERT INTO `teacher` VALUES ('15', null, '赵悦', '1003', '1', '15565467756', '1', '3000', null, '2018-09-13 17:34:44');
-INSERT INTO `teacher` VALUES ('16', '1025724', '李丽', '1004', '2', '18446556255', '3', '3600', null, '2018-09-13 17:34:44');
-INSERT INTO `teacher` VALUES ('17', '1025723', '小苍', '1005', '1', '182450221144', '2', '3600', null, '2018-09-14 08:49:28');
-INSERT INTO `teacher` VALUES ('18', '1025726', '欧阳', '1006', '1', '18265467756', '1', '2930', null, '2018-09-15 15:45:36');
+INSERT INTO `teacher` VALUES ('16', null, '李丽', '1004', '2', '18446556255', '3', '3600', null, '2018-09-13 17:34:44');
+INSERT INTO `teacher` VALUES ('17', null, '小苍', '1005', '1', '182450221144', '2', '3600', null, '2018-09-14 08:49:28');
+INSERT INTO `teacher` VALUES ('18', null, '欧阳', '1006', '1', '18265467756', '1', '2930', null, '2018-09-15 15:45:36');
+INSERT INTO `teacher` VALUES ('19', null, '韩', '1007', '1', '18812345679', '4', '2550', null, '2018-09-15 15:45:36');
 
 -- ----------------------------
 -- Table structure for users
@@ -514,7 +623,7 @@ CREATE TABLE `users_auto_login` (
 DROP TABLE IF EXISTS `wish`;
 CREATE TABLE `wish` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `level` int(11) DEFAULT NULL COMMENT '心愿类型 1、购物 2、取快递 3、校园出行 4、上门陪伴 5、整理资料 6、辅导手机应用 7、读报',
+  `level` int(11) DEFAULT NULL COMMENT '心愿类型 1、购物 2、取快递 3、校园出行 4、上门陪伴 5、整理资料 6、辅导手机应用 7、读报 8、其他',
   `content` varchar(255) DEFAULT NULL COMMENT '心愿内容',
   `end_time` datetime DEFAULT NULL COMMENT '截止时间',
   `finsh_time` datetime DEFAULT NULL COMMENT '心愿完成时间',
@@ -526,118 +635,40 @@ CREATE TABLE `wish` (
   `status_p` int(11) DEFAULT NULL COMMENT '求助人类型： 1、学生2、老师',
   `academic_id` int(11) DEFAULT NULL COMMENT '归属学院id',
   `add_time` datetime DEFAULT NULL COMMENT '心愿添加时间',
+  `shenhe` int(3) NOT NULL DEFAULT '0' COMMENT '心愿类型为其他的时候，存为0，审核通过是1，未通过是2',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=138 DEFAULT CHARSET=utf8 COMMENT='心愿信息表';
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COMMENT='心愿信息表';
 
 -- ----------------------------
 -- Records of wish
 -- ----------------------------
-INSERT INTO `wish` VALUES ('2', '3', '啦啦啦', '2018-09-12 10:14:00', null, '9', null, null, null, '2', '1', '1', '2018-09-12 10:20:33');
-INSERT INTO `wish` VALUES ('3', '3', '啦啦啦', '2018-09-14 10:14:00', null, '9', null, null, null, '1', '1', '1', '2018-09-12 10:20:58');
-INSERT INTO `wish` VALUES ('4', '1', '啦啦啦啦', '2018-09-12 16:30:00', null, '9', null, null, null, '1', '1', '1', '2018-09-12 10:21:24');
-INSERT INTO `wish` VALUES ('5', '4', '啦啦啦啦', '2018-09-12 16:14:00', null, '9', '17', null, null, '2', '1', '1', '2018-09-12 16:14:49');
-INSERT INTO `wish` VALUES ('6', '5', '啦啦', '2018-09-12 16:14:00', null, '9', null, null, null, '1', '1', '1', '2018-09-12 16:15:07');
-INSERT INTO `wish` VALUES ('7', '7', '啦啦啦阿拉', '2018-09-12 16:15:00', null, '9', null, null, null, '1', '1', '1', '2018-09-12 16:15:46');
-INSERT INTO `wish` VALUES ('8', '7', '啦啦啦阿拉', '2018-09-12 16:15:00', null, '9', null, null, null, '1', '1', '1', '2018-09-12 16:15:46');
-INSERT INTO `wish` VALUES ('9', '7', '啦啦啦阿拉', '2018-09-12 16:15:00', null, '9', null, null, null, '1', '1', '1', '2018-09-12 16:15:47');
-INSERT INTO `wish` VALUES ('10', '7', '啦啦啦阿拉', '2018-09-12 16:15:00', null, '9', null, null, null, '1', '1', '1', '2018-09-12 16:15:47');
-INSERT INTO `wish` VALUES ('11', '7', '啦啦啦阿拉', '2018-09-12 16:15:00', null, '9', null, null, null, '1', '1', '1', '2018-09-12 16:15:47');
-INSERT INTO `wish` VALUES ('12', '7', '啦啦啦阿拉', '2018-09-12 16:15:00', null, '9', null, null, null, '1', '1', '1', '2018-09-12 16:15:47');
-INSERT INTO `wish` VALUES ('13', '7', '啦啦啦阿拉', '2018-09-12 16:15:00', null, '9', null, null, null, '1', '1', '1', '2018-09-12 16:15:47');
-INSERT INTO `wish` VALUES ('14', '7', '啦啦啦阿拉', '2018-09-12 16:15:00', null, '9', null, null, null, '1', '1', '1', '2018-09-12 16:15:47');
-INSERT INTO `wish` VALUES ('15', '7', '啦啦啦阿拉', '2018-09-12 16:15:00', null, '9', null, null, null, '1', '1', '1', '2018-09-12 16:15:47');
-INSERT INTO `wish` VALUES ('16', '7', '啦啦啦阿拉', '2018-09-12 16:15:00', null, '9', null, null, null, '1', '1', '1', '2018-09-12 16:15:48');
-INSERT INTO `wish` VALUES ('17', '7', '啦啦啦阿拉', '2018-09-12 16:15:00', null, '9', null, null, null, '1', '1', '1', '2018-09-12 16:15:48');
-INSERT INTO `wish` VALUES ('18', '7', '啦啦啦阿拉', '2018-09-12 16:15:00', null, '9', null, null, null, '1', '1', '1', '2018-09-12 16:15:48');
-INSERT INTO `wish` VALUES ('19', '7', '啦啦啦阿拉', '2018-09-12 16:15:00', null, '9', null, null, null, '1', '1', '1', '2018-09-12 16:15:48');
-INSERT INTO `wish` VALUES ('20', '7', '啦啦啦阿拉', '2018-09-12 16:15:00', null, '9', null, null, null, '1', '1', '1', '2018-09-12 16:15:48');
-INSERT INTO `wish` VALUES ('21', '5', '啦啦啦阿拉', '2018-09-12 16:15:00', null, '9', null, null, null, '1', '1', '1', '2018-09-12 16:15:51');
-INSERT INTO `wish` VALUES ('22', '5', '啦啦啦阿拉', '2018-09-12 16:15:00', null, '9', null, null, null, '1', '1', '1', '2018-09-12 16:15:51');
-INSERT INTO `wish` VALUES ('23', '5', '啦啦啦阿拉', '2018-09-12 16:15:00', null, '9', null, null, null, '1', '1', '1', '2018-09-12 16:15:51');
-INSERT INTO `wish` VALUES ('24', '5', '啦啦啦阿拉', '2018-09-12 16:15:00', null, '9', null, null, null, '1', '1', '1', '2018-09-12 16:15:51');
-INSERT INTO `wish` VALUES ('25', '4', '啦啦啦阿拉', '2018-09-12 16:15:00', null, '9', null, null, null, '1', '1', '1', '2018-09-12 16:15:53');
-INSERT INTO `wish` VALUES ('26', '4', '啦啦啦阿拉', '2018-09-12 16:15:00', null, '9', null, null, null, '1', '1', '1', '2018-09-12 16:15:54');
-INSERT INTO `wish` VALUES ('27', '4', '啦啦啦阿拉', '2018-09-12 16:15:00', null, '9', null, null, null, '1', '1', '1', '2018-09-12 16:15:54');
-INSERT INTO `wish` VALUES ('28', '4', '啦啦啦阿拉', '2018-09-12 16:15:00', null, '9', null, null, null, '1', '1', '1', '2018-09-12 16:15:54');
-INSERT INTO `wish` VALUES ('29', '1', '买白菜20斤', '2018-09-13 20:55:00', '2018-09-19 10:37:47', '14', '20', '1', '180', '4', '1', '3', '2018-09-13 19:58:11');
-INSERT INTO `wish` VALUES ('30', '2', '去五福路取快递', '2018-09-13 20:59:00', '2018-09-19 10:37:46', '14', '20', '2', '160', '4', '1', '3', '2018-09-13 19:59:47');
-INSERT INTO `wish` VALUES ('31', '3', '去公园', '2018-09-13 21:00:00', '2018-09-19 10:37:44', '14', '20', '3', '60', '4', '1', '3', '2018-09-13 20:00:39');
-INSERT INTO `wish` VALUES ('32', '4', '陪聊天', '2018-09-13 21:00:00', '2018-09-14 17:52:50', '14', '20', '1', '123', '4', '1', '3', '2018-09-13 20:01:02');
-INSERT INTO `wish` VALUES ('33', '5', '资料整理', '2018-09-13 21:01:00', '2018-09-13 20:15:58', '14', '20', '2', '90', '4', '1', '3', '2018-09-13 20:01:29');
-INSERT INTO `wish` VALUES ('34', '6', '手机辅导', '2018-09-13 21:01:00', '2018-09-14 16:57:55', '14', '20', '1', '129', '4', '1', '3', '2018-09-13 20:01:50');
-INSERT INTO `wish` VALUES ('36', '2', '二号楼取快递', '2018-09-13 21:03:00', '2018-09-13 20:15:56', '14', '20', '4', '140', '4', '1', '3', '2018-09-13 20:03:37');
-INSERT INTO `wish` VALUES ('37', '1', '冰糖雪梨', '2018-09-14 08:50:00', null, '17', '21', null, null, '2', '1', '2', '2018-09-14 08:51:21');
-INSERT INTO `wish` VALUES ('38', '2', '取工服去318', '2018-09-14 08:51:00', '2018-09-14 09:58:49', '17', '21', null, null, '3', '1', '2', '2018-09-14 08:52:05');
-INSERT INTO `wish` VALUES ('39', '3', '滴滴一下也可以哒哒一下', '2018-11-16 10:54:00', '2018-09-14 09:58:48', '17', '21', null, null, '3', '1', '2', '2018-09-14 08:52:38');
-INSERT INTO `wish` VALUES ('40', '4', '还有这选项', '2020-09-14 11:54:00', '2018-09-14 09:58:48', '17', '21', null, null, '3', '1', '2', '2018-09-14 08:53:02');
-INSERT INTO `wish` VALUES ('41', '5', '干部资料。人员资料。以及更多资料', '2020-12-20 11:57:00', '2018-09-14 09:19:31', '17', '21', '0', '61', '4', '1', '2', '2018-09-14 08:54:20');
-INSERT INTO `wish` VALUES ('42', '6', '手机怎么开机', '2018-09-14 09:54:00', '2018-09-14 09:16:36', '17', '21', '0', '122', '4', '1', '2', '2018-09-14 08:54:57');
-INSERT INTO `wish` VALUES ('43', '7', '一分人民日报一份新闻日报。一份天气预报。', '2018-09-18 11:55:00', '2018-09-14 09:16:34', '17', '21', '0', '61', '4', '1', '2', '2018-09-14 08:56:16');
-INSERT INTO `wish` VALUES ('44', '1', '一斤土豆。200斤大米。3炖白菜。4车豆角。一颗葱。2鸡蛋。3纸袋。4桶水。5个椅子。6件衣服。7盆花。80双鞋子。900粒盐。', '2018-09-08 08:57:00', '2018-09-14 09:14:31', '17', '21', '4', '61', '4', '1', '2', '2018-09-14 09:01:40');
-INSERT INTO `wish` VALUES ('45', '2', '学府路251号。', '2018-09-14 09:00:00', '2018-09-14 09:16:33', '17', '21', '0', '21', '4', '1', '2', '2018-09-14 09:02:56');
-INSERT INTO `wish` VALUES ('46', '6', '怎么发布心愿。怎么开机。怎么关机。怎么打开', '2013-09-14 09:03:00', '2018-09-14 09:16:33', '17', '21', '0', '655555555555556', '4', '1', '2', '2018-09-14 09:03:50');
-INSERT INTO `wish` VALUES ('47', '5', '10新闻日报。20份新闻晚报。30中央日报。40人民日报', '2018-12-16 13:03:00', '2018-09-14 09:16:32', '17', '21', '0', '3000000050', '4', '1', '2', '2018-09-14 09:04:48');
-INSERT INTO `wish` VALUES ('48', '1', '为了更多的字为了更多的字为了更多的字为了更多的字为了更多的字为了更多的字为了更多的字为了更多的字为了更多的字为了更多的字为了更多的字为了更多的字为了更多的字为了更多的字为了更多的字为了更多的字为了更多的字为了更多的字为了更多的字为了更多的字为了更多的字为了更多的字为了更多的字为了更多的字为了更多的字为了更多的字为了更多的字为了更多的字为了更多的字为了更多的字为了更多的字为了更多的字为了更多的字为了更多的字为了更为了更多的字为了更多的字为了更多的字为了更多的字为了更多的字多的字为了更多的字为了更多的字为了更', '2018-09-16 09:04:00', '2018-09-14 09:14:27', '17', '21', '4', '62', '4', '1', '2', '2018-09-14 09:05:47');
-INSERT INTO `wish` VALUES ('49', '3', '围地球转一圈', '2030-09-14 09:06:00', '2018-09-14 09:16:31', '17', '21', '1', '3050', '4', '1', '2', '2018-09-14 09:06:35');
-INSERT INTO `wish` VALUES ('50', '4', '早中晚三遍饭', '2018-11-14 09:06:00', '2018-09-14 09:14:23', '17', '21', '3', '350', '4', '1', '2', '2018-09-14 09:07:19');
-INSERT INTO `wish` VALUES ('53', '1', '广告广告', '1950-09-14 09:21:00', null, '17', '21', null, null, '2', '1', '2', '2018-09-14 09:21:24');
-INSERT INTO `wish` VALUES ('54', '2', '刚刚才吃吃吃GG', '1950-09-14 09:21:00', '2018-09-17 13:53:10', '17', '23', null, null, '3', '1', '2', '2018-09-14 09:21:53');
-INSERT INTO `wish` VALUES ('55', '1', '图图他', '2018-09-14 09:25:00', null, '17', '19', null, null, '2', '1', '2', '2018-09-14 09:24:56');
-INSERT INTO `wish` VALUES ('56', '1', '滚滚滚还好还好距u发疯的让人人多的续保就看看i哈哈哈刚发的土鸡韩国国会滚滚滚滚滚滚哈哈哈哈哈刚发的电饭锅胡也得有哈哈哈皇冠夫妇i好好干与就好好刚刚回家黄河鬼棺哈哈哈v陈芳故居空调房唱歌韩国热水洗查户口冯额打印机基本不吃的ii功夫兔交话费瑞还挺贵i也发个好尴尬i火锅后悔吧凡人坏家伙v话剧院发广告', '2018-09-14 15:25:00', '2018-09-14 09:58:45', '17', '21', '1', '2940', '4', '1', '2', '2018-09-14 09:26:39');
-INSERT INTO `wish` VALUES ('58', '1', '1', '2018-09-14 09:32:00', null, '17', null, null, null, '1', '1', '2', '2018-09-14 09:33:01');
-INSERT INTO `wish` VALUES ('59', '1', '额', '2018-09-14 09:33:00', null, '17', null, null, null, '1', '1', '2', '2018-09-14 09:33:21');
-INSERT INTO `wish` VALUES ('60', '1', '的', '2018-09-14 09:33:00', null, '17', null, null, null, '1', '1', '2', '2018-09-14 09:33:31');
-INSERT INTO `wish` VALUES ('61', '1', '的', '2018-09-14 09:33:00', null, '17', null, null, null, '1', '1', '2', '2018-09-14 09:33:40');
-INSERT INTO `wish` VALUES ('62', '1', '干活', '2018-09-14 09:33:00', null, '17', null, null, null, '1', '1', '2', '2018-09-14 09:33:51');
-INSERT INTO `wish` VALUES ('63', '1', '地打底裤', '2018-09-14 09:35:00', null, '17', null, null, null, '1', '1', '2', '2018-09-14 09:35:52');
-INSERT INTO `wish` VALUES ('64', '1', '记得记得就', '2018-09-14 09:35:00', null, '17', null, null, null, '1', '1', '2', '2018-09-14 09:36:02');
-INSERT INTO `wish` VALUES ('65', '1', '哦弟弟', '2018-09-14 09:36:00', null, '17', null, null, null, '1', '1', '2', '2018-09-14 09:36:10');
-INSERT INTO `wish` VALUES ('66', '1', '还多久到家', '2018-09-14 09:36:00', null, '17', null, null, null, '1', '1', '2', '2018-09-14 09:36:19');
-INSERT INTO `wish` VALUES ('68', '1', '继续看上课', '2018-09-14 09:36:00', null, '17', null, null, null, '1', '1', '2', '2018-09-14 09:37:15');
-INSERT INTO `wish` VALUES ('69', '1', '来看看', '2018-09-14 09:37:00', null, '17', '19', null, null, '2', '1', '2', '2018-09-14 09:37:27');
-INSERT INTO `wish` VALUES ('81', '3', '制作', '2018-09-14 11:57:00', null, '17', '19', null, null, '2', '1', '2', '2018-09-14 11:55:05');
-INSERT INTO `wish` VALUES ('83', '1', '帮我买盒阿莫西林', '2018-09-17 11:38:00', '2018-09-17 14:23:18', '18', '5', null, null, '3', '1', '1', '2018-09-17 13:43:42');
-INSERT INTO `wish` VALUES ('84', '1', '买苹果一斤', '2018-09-16 12:44:00', '2018-09-17 13:48:33', '18', '23', '4', '70', '4', '1', '1', '2018-09-17 13:44:55');
-INSERT INTO `wish` VALUES ('85', '1', '在政治', '2018-09-17 13:58:00', null, '17', null, null, null, '1', '1', '2', '2018-09-17 13:58:29');
-INSERT INTO `wish` VALUES ('86', '1', '发发发', '2018-09-17 13:57:00', null, '17', null, null, null, '1', '1', '2', '2018-09-17 13:59:01');
-INSERT INTO `wish` VALUES ('87', '1', '京津冀', '2018-09-17 14:00:00', null, '17', null, null, null, '1', '1', '2', '2018-09-17 14:00:23');
-INSERT INTO `wish` VALUES ('88', '1', '胖胖胖', '2018-09-17 14:00:00', null, '17', null, null, null, '1', '1', '2', '2018-09-17 14:01:47');
-INSERT INTO `wish` VALUES ('89', '1', '胖胖胖斤斤计较', '2018-09-17 14:01:00', null, '17', null, null, null, '1', '1', '2', '2018-09-17 14:04:17');
-INSERT INTO `wish` VALUES ('90', '1', '是啥', '2018-09-17 14:04:00', null, '17', null, null, null, '1', '1', '2', '2018-09-17 14:04:57');
-INSERT INTO `wish` VALUES ('91', '1', '平平淡淡的', '2018-09-17 14:05:00', null, '17', null, null, null, '1', '1', '2', '2018-09-17 14:15:13');
-INSERT INTO `wish` VALUES ('92', '1', '时间', '2018-09-17 14:15:00', null, '17', null, null, null, '1', '1', '2', '2018-09-17 14:15:46');
-INSERT INTO `wish` VALUES ('93', '1', '时间', '2018-09-17 14:15:00', null, '17', null, null, null, '1', '1', '2', '2018-09-17 14:16:11');
-INSERT INTO `wish` VALUES ('94', '1', '重中之重', '2018-09-17 14:16:00', null, '17', null, null, null, '1', '1', '2', '2018-09-17 14:16:49');
-INSERT INTO `wish` VALUES ('95', '1', '哦哦哦哦', '2018-09-17 14:16:00', null, '17', null, null, null, '1', '1', '2', '2018-09-17 14:17:09');
-INSERT INTO `wish` VALUES ('96', '3', '乒乒乓乓乒乒乓乓', '2018-09-17 14:17:00', null, '17', null, null, null, '1', '1', '2', '2018-09-17 14:17:55');
-INSERT INTO `wish` VALUES ('98', '1', '是啥啊', '2018-09-17 14:17:00', null, '17', null, null, null, '1', '1', '2', '2018-09-17 14:18:53');
-INSERT INTO `wish` VALUES ('99', '1', '依旧', '2018-09-17 14:18:00', null, '17', null, null, null, '1', '1', '2', '2018-09-17 14:19:06');
-INSERT INTO `wish` VALUES ('100', '3', '散步', '2018-09-17 17:22:00', '2018-09-17 14:23:05', '10', '5', '4', '120', '4', '1', '1', '2018-09-17 14:19:10');
-INSERT INTO `wish` VALUES ('101', '1', '呃呃呃', '2018-09-17 14:19:00', null, '17', null, null, null, '1', '1', '2', '2018-09-17 14:19:19');
-INSERT INTO `wish` VALUES ('102', '3', '散步', '2018-09-17 23:19:00', '2018-09-17 14:23:00', '10', '5', '4', '90', '4', '1', '1', '2018-09-17 14:19:56');
-INSERT INTO `wish` VALUES ('103', '1', '我完全', '2018-09-17 14:22:00', null, '17', null, null, null, '1', '1', '2', '2018-09-17 14:22:57');
-INSERT INTO `wish` VALUES ('104', '1', '哦哦哦', '2018-09-17 14:24:00', null, '17', null, null, null, '1', '1', '2', '2018-09-17 14:25:28');
-INSERT INTO `wish` VALUES ('105', '1', '一', '2018-09-17 14:25:00', null, '17', null, null, null, '1', '1', '2', '2018-09-17 14:26:04');
-INSERT INTO `wish` VALUES ('106', '1', 'QQ', '2018-09-17 14:26:00', null, '17', null, null, null, '1', '1', '2', '2018-09-17 14:29:49');
-INSERT INTO `wish` VALUES ('107', '1', '会', '2018-09-17 14:35:00', null, '17', null, null, null, '1', '1', '2', '2018-09-17 14:38:23');
-INSERT INTO `wish` VALUES ('108', '1', '一u', '2018-09-17 14:38:00', null, '17', null, null, null, '1', '1', '2', '2018-09-17 14:39:17');
-INSERT INTO `wish` VALUES ('109', '1', '积极', '2018-09-17 14:39:00', null, '17', null, null, null, '1', '1', '2', '2018-09-17 14:40:01');
-INSERT INTO `wish` VALUES ('110', '1', '奇偶', '2018-09-17 14:40:00', null, '17', null, null, null, '1', '1', '2', '2018-09-17 14:40:13');
-INSERT INTO `wish` VALUES ('112', '2', '申通', '2018-09-17 19:40:00', '2018-09-17 15:03:10', '10', '5', '2', '120', '4', '1', '1', '2018-09-17 14:40:59');
-INSERT INTO `wish` VALUES ('113', '1', '急救', '2018-09-17 14:40:00', null, '17', null, null, null, '1', '1', '2', '2018-09-17 14:41:41');
-INSERT INTO `wish` VALUES ('114', '1', '舅舅', '2018-09-17 14:42:00', '2018-09-20 19:28:53', '17', '5', null, null, '3', '1', '2', '2018-09-17 14:41:58');
-INSERT INTO `wish` VALUES ('115', '4', '聊天', '2018-09-20 15:05:00', null, '10', null, null, null, '1', '1', '1', '2018-09-17 15:04:06');
-INSERT INTO `wish` VALUES ('118', '3', '散步? ', '2018-09-17 16:00:00', '2018-09-17 20:19:56', '10', '5', '4', '120', '4', '1', '1', '2018-09-17 15:16:56');
-INSERT INTO `wish` VALUES ('128', '5', '我看见了默默哦默默的呃呃呃', '2018-09-22 16:46:00', null, '12', null, null, null, '1', '1', '2', '2018-09-18 16:46:40');
-INSERT INTO `wish` VALUES ('129', '1', '购买书籍羊皮卷', '2018-09-20 12:31:00', null, '15', null, null, null, '1', '1', '1', '2018-09-19 10:32:36');
-INSERT INTO `wish` VALUES ('130', '1', '买笔记本20个', '2018-09-20 10:28:00', '2018-09-19 10:37:38', '14', '20', '4', '130', '4', '1', '3', '2018-09-19 10:35:29');
-INSERT INTO `wish` VALUES ('131', '2', '2号楼取快递', '2018-09-24 13:37:00', null, '14', null, null, null, '1', '1', '3', '2018-09-19 10:38:27');
-INSERT INTO `wish` VALUES ('132', '3', '去公园', '2018-09-21 10:38:00', null, '14', '20', null, null, '2', '1', '3', '2018-09-19 10:38:49');
-INSERT INTO `wish` VALUES ('133', '2', '取快递饿', '2018-09-23 13:55:00', '2018-09-20 13:58:01', '14', '20', '3', '140', '4', '1', '3', '2018-09-20 13:56:25');
-INSERT INTO `wish` VALUES ('134', '3', '去学校', '2018-09-25 13:56:00', '2018-09-20 13:57:59', '14', '20', '2', '120', '4', '1', '3', '2018-09-20 13:56:50');
-INSERT INTO `wish` VALUES ('135', '3', '溜达溜达', '2018-09-20 22:29:00', '2018-09-20 19:29:14', '10', '5', '4', '120', '4', '1', '1', '2018-09-20 19:27:40');
-INSERT INTO `wish` VALUES ('136', '4', '溜达溜达唠唠嗑', '2018-09-20 22:29:00', null, '10', null, null, null, '1', '1', '1', '2018-09-20 19:28:17');
-INSERT INTO `wish` VALUES ('137', '2', '电放费', '2018-09-25 23:11:00', null, '12', null, null, null, '1', '1', '2', '2018-09-20 21:12:45');
+INSERT INTO `wish` VALUES ('1', '3', '32133123213', '2018-12-18 19:36:00', '2018-12-18 12:53:10', '13', '5', '4', '183', '4', '1', '1', '2018-12-17 19:36:59', '0');
+INSERT INTO `wish` VALUES ('2', '6', '微信', '2018-12-19 12:51:00', '2018-12-18 12:55:00', '13', '5', '3', '30', '4', '1', '1', '2018-12-18 12:52:11', '0');
+
+-- ----------------------------
+-- Table structure for wish2
+-- ----------------------------
+DROP TABLE IF EXISTS `wish2`;
+CREATE TABLE `wish2` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `level` int(11) DEFAULT NULL COMMENT '心愿类型 1、购物 2、取快递 3、校园出行 4、上门陪伴 5、整理资料 6、辅导手机应用 7、读报 8、其他9、学生发布',
+  `content` varchar(255) DEFAULT NULL COMMENT '心愿内容',
+  `end_time` datetime DEFAULT NULL COMMENT '截止日期',
+  `finish_tim` datetime DEFAULT NULL,
+  `t_id` int(11) DEFAULT NULL COMMENT '发布心愿人id',
+  `s_id` int(11) DEFAULT NULL COMMENT '接收心愿人id',
+  `evaluate` int(11) DEFAULT NULL COMMENT '评价星级',
+  `duration` varchar(50) DEFAULT NULL COMMENT '心愿完成时长',
+  `status` int(11) DEFAULT NULL COMMENT '状态：1、待接取 2、已接取 3、待评价 4、已完成',
+  `academic_id` int(11) DEFAULT NULL COMMENT '归属学院id',
+  `add_time` datetime DEFAULT NULL COMMENT '心愿添加时间',
+  `shenhe` int(3) NOT NULL DEFAULT '0' COMMENT '初始是0审核通过是1，未通过是2',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of wish2
+-- ----------------------------
 
 -- ----------------------------
 -- Table structure for wx_config
@@ -858,14 +889,7 @@ CREATE TABLE `wx_user` (
 -- ----------------------------
 INSERT INTO `wx_user` VALUES ('1025721', 'o9L9G0-pyuZXAdSlh11LPUcvC5H8', '嘿嘿', '2', 'http://thirdwx.qlogo.cn/mmopen/9M0PhLTmTIc3xSeub9HXm88GcCKqsatNawicCZLdduJltsWIiazibiaibqgOnAeoMDHBQZzGF7odjKg3xZN5BKULaxB5hH2Fte3rM/132', '', '', '阿尔巴尼亚', '1536839448', '1536839375', '1', 'wx3b93333cb8e8492e', '', '0', null, null, '', '1537324267');
 INSERT INTO `wx_user` VALUES ('1025726', 'o9L9G00dz-hJrmkMaum8Fm-BVJaU', 'Nancy&南茜', '2', 'http://thirdwx.qlogo.cn/mmopen/xC1zQpU7KXbpTI3DnH4quExCGNWq1UqTKoDrMVf2nc7J9PIopmUveq3E5xymv9wEuxorUwLoia4OfxKFeBeBl4icCSSggbWgRo/132', '黑龙江', '', '中国', '1537151711', '1534931949', '1', 'wx3b93333cb8e8492e', '', '0', null, null, '', '1537162864');
-INSERT INTO `wx_user` VALUES ('1025729', 'o9L9G00nBHe_8l6sB5itv3G8gPMk', 'cherry', '2', 'http://thirdwx.qlogo.cn/mmopen/Q3auHgzwzM6sJebNeSGkAwM2jD1IyoSl8yUN8a34d8HBYPrDvEgzzKaF3V6mLqQwkhHF6Zo7vPYtB1n2PCibPkw/132', '广东', '广州', '中国', '1537185783', '1537186479', '1', 'wx3b93333cb8e8492e', '', '0', null, null, '', '1537449035');
 INSERT INTO `wx_user` VALUES ('1025730', 'o9L9G01NB0tvy5-OdZo0jjg93nH8', '玳玳花🌸', '2', 'http://thirdwx.qlogo.cn/mmopen/o2yiacl5XFuU1szVw6OWgpkibdiaibR9HQTy0BGt6r1h6IJhgEYgpoMhPTA0EgpoqiaJWpwDXvxY7CQvsM84omIJHUdu7xJLYAGX5/132', '吉林', '吉林', '中国', '1537192819', '1527653349', '1', 'wx3b93333cb8e8492e', '', '0', null, null, '', '1537402777');
-INSERT INTO `wx_user` VALUES ('1025728', 'o9L9G08f7JhHmSioGLmmzRfpQ1WQ', '冷了一半', '1', 'http://thirdwx.qlogo.cn/mmopen/xC1zQpU7KXaIoicgcP1875hKrwrqfxYg3kiald5u6l5I5alpIvkKibcznNJGkTicKcP0AHmpHbSMia9sc3Kjog2XjiadUhcHom35qU/132', '广西', '柳州', '中国', '1537176290', '1537176279', '1', 'wx3b93333cb8e8492e', '', '0', null, null, '', '1537176310');
 INSERT INTO `wx_user` VALUES ('1025720', 'o9L9G08ROAu8blImR_m0k3a408XA', '宁静致远', '2', 'http://thirdwx.qlogo.cn/mmopen/ZoGxYibLNrQTtu3iayicbibnqLLiaYibvPdOXx1VrsdRmiaaEGAP6zgG0HFibiauGGZqlibDViboGlar9xkW7NLN0JEia3uibpwbdQV3IcrLD/132', '黑龙江', '哈尔滨', '中国', '1536838636', '1536903907', '1', 'wx3b93333cb8e8492e', '', '0', null, null, '', '1537326557');
 INSERT INTO `wx_user` VALUES ('1025722', 'o9L9G093QT7JAqlSbRO26Y4yvw0E', '刘乐乐', '2', 'http://thirdwx.qlogo.cn/mmopen/9M0PhLTmTIc3xSeub9HXmib9YAO3j6tHeaOsrsF6KOG1Wfu9DibZPicNoyhiaovnjhic4AtjxJxCGtES4W8tF02Q4fw2ic7M3GENEZ/132', '黑龙江', '哈尔滨', '中国', '1536885231', '1536885220', '1', 'wx3b93333cb8e8492e', '', '0', null, null, '', '1536885231');
 INSERT INTO `wx_user` VALUES ('1025724', 'o9L9G0xA7BpJ4ncoEYO3-EQseXOw', '嘉方', '1', 'http://thirdwx.qlogo.cn/mmopen/vi_32/zygoC0xOI85gq6f0hZ3W9KNpMNj9JSjWiazHNMGKZQmexSaFc93erAQyr96IeFAicmZUibibd7MiaqGWftnpmyAqkdg/132', '黑龙江', '哈尔滨', '中国', '1536886008', null, '0', 'wx3b93333cb8e8492e', null, '0', null, null, '', '1536915416');
-INSERT INTO `wx_user` VALUES ('1025725', 'o9L9G0xYs07FDU5sQA37wPsdJ-C8', '游天&侠客', '1', 'http://thirdwx.qlogo.cn/mmopen/0PMWFB4k9tTvzNQibOM74PSqED4ZEH4lxPQ2qkwxTdrAFn5icia788avmqkHCAyFen3ibEeNIX4zm6SBkjicaOt2VP8dbpJVHdicFQ/132', '', '', '', '1536982024', '1527233863', '1', 'wx3b93333cb8e8492e', '', '0', null, null, '', '1537144971');
-INSERT INTO `wx_user` VALUES ('1025723', 'o9L9G0zlnhfh78W9mQijsNZQYY6E', '妖灵贰肆', '1', 'http://thirdwx.qlogo.cn/mmopen/vi_32/gakQzDAmBMWfcLRsMnLqib8wicgnvGNH1RQEQz0B1diansUy9QEuW3xexU3plhD6SqHGRQKdF9kfTEfFHCrHRtibBw/132', '黑龙江', '哈尔滨', '中国', '1536885233', null, '0', 'wx3b93333cb8e8492e', null, '0', null, null, '', '1537326566');
-INSERT INTO `wx_user` VALUES ('1025727', 'o9L9G0_ccgR9mV1dXltlNoAj9zMo', 'ZXY', '2', 'http://thirdwx.qlogo.cn/mmopen/fFJB4NS3RZSwmOOMH4KxicIBb81gFC00ITG6qhAQI18SeGGSLFynUl1ok7bia2ffrIiaTOkBu2n3DwLiaUDOeV0PVrQBsRSAHypC/132', '黑龙江', '哈尔滨', '中国', '1537163978', '1523157089', '1', 'wx3b93333cb8e8492e', '', '0', null, null, '', '1537442812');
-INSERT INTO `wx_user` VALUES ('1025719', 'og13Yvg-fVD7WSP5sjMwD6we0eLY', '心若止水', '2', 'http://wx.qlogo.cn/mmopen/iahdQicCC5VBTxozSjwAbIk4owKk8icktHClgI8sSPNYmTHgr0m98NE2KRPkT1JLwdtNLI0Bg45ZMKU6M4vj4GewWg204rrHJzn/0', '内蒙古', '包头', '中国', '1489975955', '1489976588', '1', 'wx0603d646f7486f19', '', '0', null, '', '', '1494234323');
-INSERT INTO `wx_user` VALUES ('1022541', 'og13YvgpTnp82zYmM-5DbWgcf9Wk', '✎﹏ℳ๓₯㎕', '0', 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLEKDUAib0Z4LkTXLCYfXibNz7VAibPn9MOGJ2GTFpSFckzcLcG9978ibHOFIVZVKRCqvbiazz8NOiaxWPw/132', '', '', '', '1482466192', '1482466154', '1', 'wx0603d646f7486f19', '', '0', null, '', '', '1482466192');
